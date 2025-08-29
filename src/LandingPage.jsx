@@ -79,10 +79,10 @@ const HeroSection = () => (
 
 const ProcessSection = () => {
     const processes = [
-        { step: "01", title: "Panen Pilihan", description: "Kami hanya memilih ceri kopi matang sempurna dari perkebunan dataran tinggi terbaik.", imageUrl: "https://images.unsplash.com/photo-1551009175-15b79d725f38?q=80&w=2574&auto=format&fit=crop" },
-        { step: "02", title: "Sangrai Artisan", description: "Setiap batch kami sangrai dengan teliti untuk membuka profil rasa yang kompleks dan unik.", imageUrl: "https://images.unsplash.com/photo-1528915421128-4b21a87b8f95?q=80&w=2535&auto=format&fit=crop" },
-        { step: "03", title: "Seduh Presisi", description: "Barista kami menggunakan teknik seduh presisi untuk mengekstraksi setiap tetes rasa.", imageUrl: "https://images.unsplash.com/photo-1563227812-0ea4c22e6cc8?q=80&w=2574&auto=format&fit=crop" },
-        { step: "04", title: "Saji Sepenuh Hati", description: "Kami menyajikan setiap pesanan sebagai puncak dari perjalanan panjang kopi.", imageUrl: "https://images.unsplash.com/photo-1517701559438-c38c8236ec9c?q=80&w=2574&auto=format&fit=crop" }
+        { step: "01", title: "Panen Pilihan", description: "Kami hanya memilih ceri kopi matang sempurna dari perkebunan dataran tinggi terbaik.", imageUrl: "https://images.unsplash.com/photo-1746623691157-c4c7a3bad0c4?q=80&w=1475&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+        { step: "02", title: "Sangrai Artisan", description: "Setiap batch kami sangrai dengan teliti untuk membuka profil rasa yang kompleks dan unik.", imageUrl: "https://images.unsplash.com/photo-1561986810-4f3ba2f46ceb?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+        { step: "03", title: "Seduh Presisi", description: "Barista kami menggunakan teknik seduh presisi untuk mengekstraksi setiap tetes rasa.", imageUrl: "https://images.unsplash.com/photo-1581068106158-a432387dbbae?q=80&w=1471&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" },
+        { step: "04", title: "Saji Sepenuh Hati", description: "Kami menyajikan setiap pesanan sebagai puncak dari perjalanan panjang kopi.", imageUrl: "https://images.unsplash.com/photo-1542372147193-a7aca54189cd?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" }
     ];
 
     const component = useRef(null);
@@ -339,5 +339,6 @@ function LandingPage() {
     </>
   );
 }
+
 
 export default LandingPage;
