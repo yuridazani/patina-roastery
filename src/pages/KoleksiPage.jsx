@@ -15,48 +15,48 @@ const onlineMenu = {
       category: 'Signature Coffee',
       icon: <Coffee size={24} className="mr-3" />,
       items: [
-        { id: 101, name: 'Patina House Blend', price: '30k', description: 'Espresso, fresh milk, dan gula aren premium.', imageUrl: 'https://images.unsplash.com/photo-1572498283419-69b23b4a2958?q=80&w=2564&auto=format&fit=crop', type: 'cafe' },
-        { id: 102, name: 'Verdigris Sea Salt Latte', price: '32k', description: 'Latte dengan sirup pandan dan sea salt foam gurih.', imageUrl: 'https://images.unsplash.com/photo-1610890482520-551b81831274?q=80&w=2574&auto=format&fit=crop', type: 'cafe' },
-        { id: 103, name: 'Caramel Macchiato', price: '34k', description: 'Suntikan vanila, susu, espresso, dan saus karamel.', imageUrl: 'https://images.unsplash.com/photo-1576092762791-d67b79f22b8e?q=80&w=2574&auto=format&fit=crop', type: 'cafe' },
-        { id: 104, name: 'Patina Black Cold Brew', price: '35k', description: 'Ekstraksi dingin selama 12 jam, kuat dan menyegarkan.', imageUrl: 'https://images.unsplash.com/photo-1517701559438-c38c8236ec9c?q=80&w=2574&auto=format&fit=crop', type: 'cafe' },
-        { id: 105, name: 'Vanilla Affogato', price: '30k', description: 'Satu scoop es krim vanila ditenggelamkan dalam espresso.', imageUrl: 'https://images.unsplash.com/photo-1579953935212-002f2334a413?q=80&w=2574&auto=format&fit=crop', type: 'cafe' },
-        { id: 106, name: 'Mocha Latte', price: '34k', description: 'Perpaduan sempurna antara cokelat premium dan espresso.', imageUrl: 'https://images.unsplash.com/photo-1542287943-2612501a4e2a?q=80&w=2597&auto=format&fit=crop', type: 'cafe' },
+        { id: 101, name: 'Patina House Blend', price: '30k', description: 'Espresso, fresh milk, dan gula aren premium.', imageUrl: 'https://images.unsplash.com/photo-1498709112912-9be3173d30be?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', type: 'cafe' },
+        { id: 102, name: 'Verdigris Sea Salt Latte', price: '32k', description: 'Latte dengan sirup pandan dan sea salt foam gurih.', imageUrl: 'https://plus.unsplash.com/premium_photo-1674407009848-4da7a12b6b25?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', type: 'cafe' },
+        { id: 103, name: 'Caramel Macchiato', price: '34k', description: 'Suntikan vanila, susu, espresso, dan saus karamel.', imageUrl: 'https://images.unsplash.com/photo-1662047102608-a6f2e492411f?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', type: 'cafe' },
+        { id: 104, name: 'Patina Black Cold Brew', price: '35k', description: 'Ekstraksi dingin selama 12 jam, kuat dan menyegarkan.', imageUrl: 'https://images.unsplash.com/photo-1620455640440-2b506a0e7f6c?q=80&w=1412&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', type: 'cafe' },
+        { id: 105, name: 'Vanilla Affogato', price: '30k', description: 'Satu scoop es krim vanila ditenggelamkan dalam espresso.', imageUrl: 'https://plus.unsplash.com/premium_photo-1692912808109-e02afcf3999d?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', type: 'cafe' },
+        { id: 106, name: 'Mocha Latte', price: '34k', description: 'Perpaduan sempurna antara cokelat premium dan espresso.', imageUrl: 'https://images.unsplash.com/photo-1618576230663-9714aecfb99a?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', type: 'cafe' },
       ]
     },
     {
       category: 'Manual Brew',
       icon: <Coffee size={24} className="mr-3" />,
       items: [
-        { id: 201, name: 'V60 - Gayo Wine', price: '35k', description: 'Profil rasa fruity dan winey yang kompleks.', imageUrl: 'https://images.unsplash.com/photo-1593181829280-55d48a3c89b8?q=80&w=2574&auto=format&fit=crop', type: 'cafe' },
-        { id: 202, name: 'Japanese Iced - Kerinci', price: '38k', description: 'Sangat menyegarkan dengan aftertaste yang bersih.', imageUrl: 'https://images.unsplash.com/photo-1628178873199-91e84a289947?q=80&w=2574&auto=format&fit=crop', type: 'cafe' },
-        { id: 203, name: 'Kalita Wave - Kintamani', price: '35k', description: 'Body seimbang dengan hint rasa jeruk dan cokelat.', imageUrl: 'https://images.unsplash.com/photo-1512568400610-62da2848a094?q=80&w=2574&auto=format&fit=crop', type: 'cafe' },
-        { id: 204, name: 'Aeropress - Flores Bajawa', price: '33k', description: 'Rasa yang intens dan kaya, minim ampas.', imageUrl: 'https://images.unsplash.com/photo-1608678559244-6202e7a18851?q=80&w=2574&auto=format&fit=crop', type: 'cafe' },
-        { id: 205, name: 'Tubruk - Robusta Dampit', price: '20k', description: 'Untuk pencari kafein sejati, pahit dan mantap.', imageUrl: 'https://images.unsplash.com/photo-1599391113262-e23e6c02a762?q=80&w=2574&auto=format&fit=crop', type: 'cafe' },
-        { id: 206, name: 'Vietnam Drip - House Blend', price: '28k', description: 'Kopi tetes khas Vietnam dengan susu kental manis.', imageUrl: 'https://images.unsplash.com/photo-1561088316-433b91a547b7?q=80&w=2574&auto=format&fit=crop', type: 'cafe' },
+        { id: 201, name: 'V60 - Gayo Wine', price: '35k', description: 'Profil rasa fruity dan winey yang kompleks.', imageUrl: 'https://images.unsplash.com/photo-1715584019942-4f8e6535cc38?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', type: 'cafe' },
+        { id: 202, name: 'Japanese Iced - Kerinci', price: '38k', description: 'Sangat menyegarkan dengan aftertaste yang bersih.', imageUrl: 'https://www.thermos.jp/webmagazine/article/detail/news_plusthermos_file/file/20220610_01_03.jpg', type: 'cafe' },
+        { id: 203, name: 'Kalita Wave - Kintamani', price: '35k', description: 'Body seimbang dengan hint rasa jeruk dan cokelat.', imageUrl: 'https://cdn.shopify.com/s/files/1/0598/1202/0375/products/kalita-wave-185-coffee-dripper-177615_1024x1024_02d8b194-32fa-4d17-866c-a59d41dbad6c.jpg?v=1644275305', type: 'cafe' },
+        { id: 204, name: 'Aeropress - Flores Bajawa', price: '33k', description: 'Rasa yang intens dan kaya, minim ampas.', imageUrl: 'https://images.unsplash.com/photo-1667568976467-57c8964a257a?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', type: 'cafe' },
+        { id: 205, name: 'Tubruk - Robusta Dampit', price: '20k', description: 'Untuk pencari kafein sejati, pahit dan mantap.', imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Javanese_Kopi_Tubruk.jpg/330px-Javanese_Kopi_Tubruk.jpg', type: 'cafe' },
+        { id: 206, name: 'Vietnam Drip - House Blend', price: '28k', description: 'Kopi tetes khas Vietnam dengan susu kental manis.', imageUrl: 'https://images.unsplash.com/photo-1671014594641-262cc4b9a16d?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', type: 'cafe' },
       ]
     },
     {
       category: 'Main Course & Snacks',
       icon: <Utensils size={24} className="mr-3" />,
       items: [
-        { id: 301, name: 'Truffle Mushroom Pasta', price: '65k', description: 'Creamy pasta dengan jamur champignon dan truffle oil.', imageUrl: 'https://images.unsplash.com/photo-1598866594240-a314d756d036?q=80&w=2574&auto=format&fit=crop', type: 'cafe' },
-        { id: 302, name: 'Patina Signature Fries', price: '35k', description: 'Kentang goreng renyah dengan bumbu rahasia.', imageUrl: 'https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?q=80&w=2574&auto=format&fit=crop', type: 'cafe' },
-        { id: 303, name: 'Spicy Chicken Wings', price: '45k', description: '6 potong sayap ayam dengan saus pedas manis.', imageUrl: 'https://images.unsplash.com/photo-1527477396000-e27176b682dc?q=80&w=2574&auto=format&fit=crop', type: 'cafe' },
-        { id: 304, name: 'Beef Rice Bowl', price: '55k', description: 'Nasi dengan irisan daging sapi teriyaki dan telur.', imageUrl: 'https://images.unsplash.com/photo-1599305451953-e59a05c5c024?q=80&w=2574&auto=format&fit=crop', type: 'cafe' },
-        { id: 305, name: 'Club Sandwich', price: '50k', description: 'Roti lapis klasik dengan isian lengkap dan kentang.', imageUrl: 'https://images.unsplash.com/photo-1592415486689-125c92150056?q=80&w=2574&auto=format&fit=crop', type: 'cafe' },
-        { id: 306, name: 'Caesar Salad', price: '48k', description: 'Salad segar dengan dressing caesar dan potongan ayam.', imageUrl: 'https://images.unsplash.com/photo-1550304943-4f24f54ddde9?q=80&w=2574&auto=format&fit=crop', type: 'cafe' },
+        { id: 301, name: 'Truffle Mushroom Pasta', price: '65k', description: 'Creamy pasta dengan jamur champignon dan truffle oil.', imageUrl: 'https://plus.unsplash.com/premium_photo-1681826354195-295f2d767779?q=80&w=1472&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', type: 'cafe' },
+        { id: 302, name: 'Patina Signature Fries', price: '35k', description: 'Kentang goreng renyah dengan bumbu rahasia.', imageUrl: 'https://images.unsplash.com/photo-1485962398705-ef6a13c41e8f?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', type: 'cafe' },
+        { id: 303, name: 'Spicy Chicken Wings', price: '45k', description: '6 potong sayap ayam dengan saus pedas manis.', imageUrl: 'https://plus.unsplash.com/premium_photo-1669742927923-32d9ee86887c?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', type: 'cafe' },
+        { id: 304, name: 'Beef Rice Bowl', price: '55k', description: 'Nasi dengan irisan daging sapi teriyaki dan telur.', imageUrl: 'https://images.unsplash.com/photo-1688431512427-36a359510de2?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', type: 'cafe' },
+        { id: 305, name: 'Club Sandwich', price: '50k', description: 'Roti lapis klasik dengan isian lengkap dan kentang.', imageUrl: 'https://plus.unsplash.com/premium_photo-1669687759566-e07cf4e03e26?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', type: 'cafe' },
+        { id: 306, name: 'Caesar Salad', price: '48k', description: 'Salad segar dengan dressing caesar dan potongan ayam.', imageUrl: 'https://images.unsplash.com/photo-1574926054530-540288c8e678?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', type: 'cafe' },
       ]
     },
     {
       category: 'Desserts & Pastry',
       icon: <Croissant size={24} className="mr-3" />,
       items: [
-        { id: 401, name: 'Basque Burnt Cheesecake', price: '40k', description: 'Slice cheesecake gosong yang lumer di tengah.', imageUrl: 'https://images.unsplash.com/photo-1604538515243-57a4149a4f6a?q=80&w=2564&auto=format&fit=crop', type: 'cafe' },
-        { id: 402, name: 'Classic Butter Croissant', price: '25k', description: 'Pastry renyah dan buttery, sempurna untuk teman kopi.', imageUrl: 'https://images.unsplash.com/photo-1598813426832-a16b472141d1?q=80&w=2574&auto=format&fit=crop', type: 'cafe' },
-        { id: 403, name: 'Dark Choco Brownie', price: '35k', description: 'Brownie cokelat pekat dengan topping es krim vanila.', imageUrl: 'https://images.unsplash.com/photo-1563729784474-d77dbb933a9e?q=80&w=2574&auto=format&fit=crop', type: 'cafe' },
-        { id: 404, name: 'Pain Au Chocolat', price: '28k', description: 'Pastry klasik Perancis dengan isian cokelat lumer.', imageUrl: 'https://images.unsplash.com/photo-1606115989741-b84175389839?q=80&w=2574&auto=format&fit=crop', type: 'cafe' },
-        { id: 405, name: 'Red Velvet Slice', price: '38k', description: 'Kue red velvet lembut dengan lapisan cream cheese.', imageUrl: 'https://images.unsplash.com/photo-1616012001925-9a6a1a1b4e1b?q=80&w=2574&auto=format&fit=crop', type: 'cafe' },
-        { id: 406, name: 'Oatmeal Cookies', price: '18k', description: 'Kue kering sehat dengan campuran oat dan kismis.', imageUrl: 'https://images.unsplash.com/photo-1499636136210-6f4ee915583e?q=80&w=2574&auto=format&fit=crop', type: 'cafe' },
+        { id: 401, name: 'Basque Burnt Cheesecake', price: '40k', description: 'Slice cheesecake gosong yang lumer di tengah.', imageUrl: 'https://images.unsplash.com/photo-1607914770021-82956c49ec03?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', type: 'cafe' },
+        { id: 402, name: 'Classic Butter Croissant', price: '25k', description: 'Pastry renyah dan buttery, sempurna untuk teman kopi.', imageUrl: 'https://images.unsplash.com/photo-1529978215771-45f0bcc12de3?q=80&w=1430&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', type: 'cafe' },
+        { id: 403, name: 'Dark Choco Brownie', price: '35k', description: 'Brownie cokelat pekat dengan topping es krim vanila.', imageUrl: 'https://images.unsplash.com/photo-1624353365286-3f8d62daad51?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', type: 'cafe' },
+        { id: 404, name: 'Pain Au Chocolat', price: '28k', description: 'Pastry klasik Perancis dengan isian cokelat lumer.', imageUrl: 'https://images.unsplash.com/photo-1681218424681-b4f8228ecea9?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', type: 'cafe' },
+        { id: 405, name: 'Red Velvet Slice', price: '38k', description: 'Kue red velvet lembut dengan lapisan cream cheese.', imageUrl: 'https://images.unsplash.com/photo-1586788680434-30d324b2d46f?q=80&w=1551&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', type: 'cafe' },
+        { id: 406, name: 'Oatmeal Cookies', price: '18k', description: 'Kue kering sehat dengan campuran oat dan kismis.', imageUrl: 'https://images.unsplash.com/photo-1497051788611-2c64812349fa?q=80&w=1381&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D', type: 'cafe' },
       ]
     }
   ],
@@ -183,3 +183,4 @@ const KoleksiPage = () => {
 };
 
 export default KoleksiPage;
+
