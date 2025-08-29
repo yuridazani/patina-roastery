@@ -1,0 +1,23 @@
+/* src/index.css */
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    /* Font Body = Inter */
+    font-family: 'Inter', sans-serif; 
+    
+    /* Warna dasar dari palet */
+    background-color: #efe6dd; /* Linen */
+    color: #231f20; /* Raisin Black */
+
+    /* Font rendering yang lebih halus */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Helper class untuk font display (heading) */
+.font-display {
+    font-family: 'Space Grotesk', sans-serif;
+}
